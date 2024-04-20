@@ -5,6 +5,7 @@ Styles also support gtk-3.0 and gtk-4.0 and can be installed together with other
 
 You can judge the results of the styles by this screenshots.
 
+
 ![Left position](./assets/image-1.png)
 ![Right position](./assets/image-7.png)
 
