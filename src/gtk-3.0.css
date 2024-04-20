@@ -1,8 +1,9 @@
+/** default */
 headerbar button.close > * {
   background-image: url("./assets/titlebutton-close-dark.png");
 }
 
-headerbar button.close:hover > * {
+headerbar button.close > *:hover, headerbar button.close:hover > * {
   background-image: url("./assets/titlebutton-close-hover-dark.png");
 }
 
@@ -10,7 +11,7 @@ headerbar button.minimize > * {
   background-image: url("./assets/titlebutton-minimize-dark.png");
 }
 
-headerbar button.minimize:hover > * {
+headerbar button.minimize > *:hover, headerbar button.minimize:hover > * {
   background-image: url("./assets/titlebutton-minimize-hover-dark.png");
 }
 
@@ -18,11 +19,11 @@ headerbar button.maximize > * {
   background-image: url("./assets/titlebutton-maximize-dark.png");
 }
 
-headerbar button.maximize:hover > * {
+headerbar button.maximize > *:hover, headerbar button.maximize:hover > * {
   background-image: url("./assets/titlebutton-maximize-hover-dark.png");
 }
 
-headerbar:backdrop button.minimize > *, headerbar:backdrop button.maximize > *, headerbar:backdrop button.close > * {
+headerbar:backdrop button.minimize > *, headerbar:backdrop button.maximize > *, headerbar:backdrop button.close > *, headerbar button.minimize > *:backdrop, headerbar button.maximize > *:backdrop, headerbar button.close > *:backdrop {
   background-image: url("./assets/titlebutton-backdrop.png");
 }
 
@@ -40,7 +41,7 @@ headerbar button.minimize, headerbar button.maximize, headerbar button.close {
   margin-right: -1.5px;
 }
 
-headerbar > windowhandle > box {
-  margin-right: 5px;
-  margin-left: 5px;
+headerbar > windowhandle > box, headerbar > box {
+  padding-right: 5px;
+  padding-left: 5px;
 }

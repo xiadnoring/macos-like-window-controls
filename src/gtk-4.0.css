@@ -40,7 +40,7 @@ headerbar button.minimize, headerbar button.maximize, headerbar button.close {
   margin-right: 2.5px;
 }
 
-headerbar > windowhandle > box {
-  margin-right: 5px;
-  margin-left: 5px;
+headerbar > windowhandle > box, headerbar > box {
+  padding-right: 10px;
+  padding-left: 10px;
 }
