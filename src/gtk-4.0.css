@@ -1,0 +1,46 @@
+headerbar button.close > * {
+  background-image: url("./assets/titlebutton-close-dark.png");
+}
+
+headerbar button.close:hover > * {
+  background-image: url("./assets/titlebutton-close-hover-dark.png");
+}
+
+headerbar button.minimize > * {
+  background-image: url("./assets/titlebutton-minimize-dark.png");
+}
+
+headerbar button.minimize:hover > * {
+  background-image: url("./assets/titlebutton-minimize-hover-dark.png");
+}
+
+headerbar button.maximize > * {
+  background-image: url("./assets/titlebutton-maximize-dark.png");
+}
+
+headerbar button.maximize:hover > * {
+  background-image: url("./assets/titlebutton-maximize-hover-dark.png");
+}
+
+headerbar:backdrop button.minimize > *, headerbar:backdrop button.maximize > *, headerbar:backdrop button.close > * {
+  background-image: url("./assets/titlebutton-backdrop.png");
+}
+
+headerbar button.minimize > *, headerbar button.maximize > *, headerbar button.close > * {
+  background-position: center;
+  background-size: cover;
+  color: rgba(0,0,0,0);
+}
+
+headerbar button.minimize, headerbar button.maximize, headerbar button.close {
+  min-height: 20px;
+  min-width: 20px;
+  padding: 0;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+headerbar > windowhandle > box {
+  margin-right: 5px;
+  margin-left: 5px;
+}
