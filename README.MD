@@ -1,4 +1,4 @@
-# macOS-like window controls
+# 🤡macOS-like window controls
 
 These styles convert regular gnome controls to macOS-like ones.
 Styles also support gtk-3.0 and gtk-4.0 and can be installed together with other Gnome themes.
@@ -41,7 +41,7 @@ I will work on correcting these errors. Also, you can always help me with this.
 ```
 * Reboot
 ```bash
-reboot
+$ reboot
 ```
 
 ## 🏮Tested
