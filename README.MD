@@ -10,10 +10,15 @@ You can judge the results of the styles by this screenshots.
 
 ## 🌟Overview
 Window controls in enlarged view.
+
 ![active](./assets/image-5.png)
+
 ![close](./assets/image-2.png)
+
 ![minimize](./assets/image-3.png)
+
 ![maximize](./assets/image-4.png)
+
 ![backdrop](./assets/image-6.png)
 
 Bugs in styles are also possible. For example, in vs-code, the distance between the buttons increases, and etc.
