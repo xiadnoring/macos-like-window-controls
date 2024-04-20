@@ -1,6 +1,6 @@
-# 🤡macOS-like window controls
+# 🤡macOs-like window controls
 
-These styles convert regular gnome controls to macOS-like ones.
+These styles convert regular gnome controls to macOs-like ones.
 Styles also support gtk-3.0 and gtk-4.0 and can be installed together with other Gnome themes.
 
 You can judge the results of the styles by this screenshots.
