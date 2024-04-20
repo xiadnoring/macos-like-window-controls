@@ -29,7 +29,7 @@ I will work on correcting these errors. Also, you can always help me with this.
 
 
 ## 💡Installation
-* Download the **latest zip** archive from the releases.
+* Download the **latest zip** archive from the [releases](https://github.com/timurtuty/macos-theme-window-controls/releases).
 * Unzip the archive to **~/.config** to get a **macos-like-window-controls** folder with styles.
 * Add this line **to ~/.config/gtk-3.0/gtk.css**
 ```css
