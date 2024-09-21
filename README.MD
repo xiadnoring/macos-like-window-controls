@@ -45,5 +45,19 @@ I will work on correcting these errors. Also, you can always help me with this.
 $ reboot
 ```
 
+## 😭 Flatpak Support
+
+```bash
+sudo flatpak override --filesystem=xdg-config/gtk-3.0
+sudo flatpak override --filesystem=xdg-config/gtk-4.0
+sudo flatpak override --filesystem=xdg-config/macos-like-window-controls
+```
+
+> [!NOTE]
+> You will just grant read/write flatpak apps to the below folders:
+> - ~/.config/gtk-3.0
+> - ~/.config/gtk-4.0
+> - ~/.config/macos-like-window-controls
+
 ## 🏮Tested
 * Tested on Gnome 46.0 ArchLinux x86_64 kernel 6.8.7-zen1-1-zen wayland
