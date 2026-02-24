@@ -1,5 +1,14 @@
+headerbar > windowcontrols > button.close {
+  -gtk-icon-transform: scale(0);
+  background-image: url("./assets/titlebutton-close-dark.png");
+}
+
 headerbar button.close > * {
   background-image: url("./assets/titlebutton-close-dark.png");
+}
+
+headerbar > windowcontrols > button.close:hover {
+  background-image: url("./assets/titlebutton-close-hover-dark.png");
 }
 
 headerbar button.close:hover > * {
@@ -10,7 +19,16 @@ headerbar button.minimize > * {
   background-image: url("./assets/titlebutton-minimize-dark.png");
 }
 
+headerbar > windowcontrols > button.minimize {
+  -gtk-icon-transform: scale(0);
+  background-image: url("./assets/titlebutton-minimize-dark.png");
+}
+
 headerbar button.minimize:hover > * {
+  background-image: url("./assets/titlebutton-minimize-hover-dark.png");
+}
+
+headerbar > windowcontrols > button.minimize:hover {
   background-image: url("./assets/titlebutton-minimize-hover-dark.png");
 }
 
@@ -18,7 +36,16 @@ headerbar button.maximize > * {
   background-image: url("./assets/titlebutton-maximize-dark.png");
 }
 
+headerbar > windowcontrols > button.maximize {
+  -gtk-icon-transform: scale(0);
+  background-image: url("./assets/titlebutton-maximize-dark.png");
+}
+
 headerbar button.maximize:hover > * {
+  background-image: url("./assets/titlebutton-maximize-hover-dark.png");
+}
+
+headerbar > windowcontrols > button.maximize:hover  {
   background-image: url("./assets/titlebutton-maximize-hover-dark.png");
 }
 
@@ -33,14 +60,14 @@ headerbar button.minimize > *, headerbar button.maximize > *, headerbar button.c
 }
 
 headerbar button.minimize, headerbar button.maximize, headerbar button.close {
-  min-height: 20px;
-  min-width: 20px;
+  min-height: 22px;
+  min-width: 22px;
   padding: 0;
-  margin-left: 2.5px;
-  margin-right: 2.5px;
+  margin-left: 0px;
+  margin-right: -1.5px;
 }
 
-headerbar > windowhandle > box, headerbar > box {
-  padding-right: 10px;
-  padding-left: 10px;
+headerbar {
+  margin-right: 0px;
+  padding-right: 2px;
 }
